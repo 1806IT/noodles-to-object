@@ -1,0 +1,26 @@
+.tab-container {
+      width: 300px;
+      border: 1px solid #ccc;
+    }
+    .tab-header {
+      background: #eee;
+      display: flex;
+    }
+    .tab-header>div {
+      flex: 1;
+      text-align: center;
+      line-height: 30px;
+      border-right: 1px solid #ccc;
+    }
+    .tab-header .active {
+      color: red;
+    }
+    .tab-panels>div {
+      display: none;
+      height: 100px;
+      padding: 20px;
+    }
+    .tab-panels .active {
+      display: block;
+      
+    }
